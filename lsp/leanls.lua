@@ -1,0 +1,5 @@
+return {
+	cmd = { "lean", "--server" },
+	filetypes = { "lean" },
+	root_markers = { { "lakefile.toml", "lakefile.lean" }, "lean-toolchain" },
+}
