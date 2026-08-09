@@ -31,11 +31,11 @@ installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 > in order to uphold their security and stability guarantee. This *will* cause issues
 > unless you manually install a more up-to-date version (v0.12.0+) from somewhere else.
 
-The command below should automagically install the Neovim config and its dependencies,
-except the language server binaries. It (probably) works on MacOS with
-[Homebrew](https://brew.sh) and Linux distributions using `pacman`, `apt`, or `dnf`
-as package managers.
-
+The command below executes a install script and should automagically install the Neovim
+config and its dependencies, except the language server binaries. It (probably) works on
+MacOS with [Homebrew](https://brew.sh) and Linux distributions using `pacman`, `apt`, or
+`dnf` as package managers. A backup of your current Neovim config is automatically
+created before installation happens.
 
 ```bash
 curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/bash
