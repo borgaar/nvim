@@ -1,16 +1,18 @@
 ## Introduction
 
-This Neovim config was written from scratch and is my daily driver for 95% of my
+This Neovim config is written from scratch and is my daily driver for 95% of my
 programming work. The main focus of this Neovim config is to stay close to the native
 Neovim experience while still providing some nice-to-haves. My personal motivation for
-this is to avoid my annoyance of having to essentially relearn Neovim everytime I attempt to use it
-on a remote server or some other machine with a default-like Neovim config.
+this is to avoid my annoyance of having to essentially relearn Neovim anytime I attempt
+to edit some files on a remote server or some other machine with a default-like Neovim
+config.
 
 ## Compatibility
 
-This config is built on and for Arch-based Linux distributions, but may work on many
-other distributions (though no guarantees). I have no clue about this config's MacOS
-and Windows support (so assume unsupported).
+This config is built mainly for Arch-based Linux distributions, but may work on many
+other distributions (no guarantees provided). I have no clue about this config's MacOS
+and Windows support (so assume unsupported). The install script does have some logic to
+support MacOS, but this remains untested as I do not own a Mac to test it with.
 
 ## Dependencies
 
@@ -23,7 +25,7 @@ installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ## Installation
 
-There are multiple ways of installing the config. Method A is recommended.
+There are multiple ways of installing the config. Method A is automatic and recommended.
 
 ### Method A (Linux and MacOS only) (automatic) (recommended)
 
