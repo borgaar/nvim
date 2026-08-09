@@ -21,11 +21,11 @@ installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 - [Tree-sitter CLI v0.26.1+](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)
 - A C compiler in your PATH.
 
-## Installation (Linux and MacOS only)
+## Installation
 
 There are multiple ways of installing the config. Method A is recommended.
 
-### Method A (recommended)
+### Method A (Linux and MacOS only) (recommended)
 
 > [!WARNING]
 > This script installs Neovim from your distro's official repository, and as of
