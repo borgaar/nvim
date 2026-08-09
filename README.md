@@ -17,15 +17,24 @@ and Windows support (so assume unsupported).
 The following are the config's dependencies, bar language server binaries and plugins
 installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 
-- [Neovim v0.12.x](https://neovim.io)
-- [`tree-sitter-cli`](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)
+- [Neovim v0.12.0+](https://neovim.io)
+- [Tree-sitter CLI v0.26.1+](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)
 
 # Installation (Linux and MacOS only)
 
+# Method A (recommended)
+
+>[!CAUTION] This script installs Neovim from your distro's official repository, and as
+>of 2026-08-09, Neovim v0.12.0+ is relatively new. Therefore, many distributions, most
+>notably Debian and Ubuntu LTS and probably many more, might not have Neovim v0.12.0+ in
+>order to uphold their security and stability guarantee. This *will* cause issues unless you manually
+>install a more up-to-date version (v0.12.0+) from somewhere else.
+
 The command below should automagically install the Neovim config and its dependencies,
 except the language server binaries. It (probably) works on MacOS with
-[Homebrew](https://brew.sh) and Linux distributions using `pacman`, `apt` or `dnf`
+[Homebrew](https://brew.sh) and Linux distributions using `pacman`, `apt`, or `dnf`
 as package managers.
+
 
 ```bash
 curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/bash
