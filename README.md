@@ -19,8 +19,11 @@ installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 - [Neovim v0.12.0+](https://neovim.io)
 - [Tree-sitter CLI v0.26.1+](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)
+- A C compiler in your PATH.
 
 # Installation (Linux and MacOS only)
+
+There are multiple ways of installing the config. Method A is recommended.
 
 # Method A (recommended)
 
@@ -41,3 +44,15 @@ created before installation happens.
 ```bash
 curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/bash
 ```
+
+# Method B
+
+> [!WARNING]
+> Do **not** install Tree-sitter CLI from NPM.
+
+1. Create a backup of your current config if you have one: `mv "$HOME/.config/nvim"
+   "$HOME/.config/nvim.backup"`
+1. Make sure you have Neovim v0.12.0+. If not, [install it](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-package).
+1. Install [Tree-sitter CLI v0.26.1+]. It can probably be found in your distribution's official repositories. If not, follow [these instructions](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md).
+1. Install the Neovim config with `git clone "https://github.com/borgaar/nvim"
+   "$HOME/.config/nvim"`
