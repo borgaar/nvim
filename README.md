@@ -25,7 +25,7 @@ installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 There are multiple ways of installing the config. Method A is recommended.
 
-### Method A (Linux and MacOS only) (recommended)
+### Method A (Linux and MacOS only) (automatic) (recommended)
 
 > [!WARNING]
 > This script installs Neovim from your distro's official repository, and as of
@@ -45,7 +45,7 @@ created before installation happens.
 curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/bash
 ```
 
-## Method B
+## Method B (manual)
 
 > [!WARNING]
 > Do **not** install Tree-sitter CLI from NPM.
