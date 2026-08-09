@@ -50,7 +50,7 @@ curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/
 > [!WARNING]
 > Do **not** install Tree-sitter CLI from NPM.
 
-1. Create a backup of your current config if you have one:
+0. Create a backup of your current config if you have one:
     ```bash
     mv "$HOME/.config/nvim" "$HOME/.config/nvim.backup"
     ```
