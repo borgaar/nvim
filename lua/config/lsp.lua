@@ -1,18 +1,19 @@
--- Advertise cmp's extra client capabilities (snippets, resolve, label details) to every server
+-- Advertise cmp's extra client capabilities to every server
 vim.lsp.config("*", {
 	capabilities = require("cmp_nvim_lsp").default_capabilities(),
 })
 
 vim.lsp.enable({
 	"clangd",
-	"jsonnet_ls",
+	"vscode-json-language-server",
 	"lemminx",
 	"leanls",
-	"lua_ls",
+	"lua-language-server",
 	"pyright",
 	"rust_analyzer",
 	"tailwindcss",
 	"vtsls",
+	"stylua",
 })
 
 vim.api.nvim_create_autocmd("LspAttach", {
