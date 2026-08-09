@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 This Neovim config was written from scratch and is my daily driver for 95% of my
 programming work. The main focus of this Neovim config is to stay close to the native
@@ -6,13 +6,13 @@ Neovim experience while still providing some nice-to-haves. My personal motivati
 this is to avoid my annoyance of having to essentially relearn Neovim everytime I attempt to use it
 on a remote server or some other machine with a default-like Neovim config.
 
-# Compatibility
+## Compatibility
 
 This config is built on and for Arch-based Linux distributions, but may work on many
 other distributions (though no guarantees). I have no clue about this config's MacOS
 and Windows support (so assume unsupported).
 
-# Dependencies
+## Dependencies
 
 The following are the config's dependencies, bar language server binaries and plugins
 installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
@@ -21,11 +21,11 @@ installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 - [Tree-sitter CLI v0.26.1+](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)
 - A C compiler in your PATH.
 
-# Installation (Linux and MacOS only)
+## Installation (Linux and MacOS only)
 
 There are multiple ways of installing the config. Method A is recommended.
 
-# Method A (recommended)
+### Method A (recommended)
 
 > [!WARNING]
 > This script installs Neovim from your distro's official repository, and as of
@@ -45,7 +45,7 @@ created before installation happens.
 curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/bash
 ```
 
-# Method B
+## Method B
 
 > [!WARNING]
 > Do **not** install Tree-sitter CLI from NPM.
