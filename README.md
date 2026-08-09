@@ -25,11 +25,12 @@ installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 # Method A (recommended)
 
 > [!WARNING]
-> This script installs Neovim from your distro's official repository, and as
-> of 2026-08-09, Neovim v0.12.0+ is relatively new. Therefore, many distributions, most
+> This script installs Neovim from your distro's official repository, and as of
+> 2026-08-09, Neovim v0.12.0+ is relatively new. Therefore, many distributions, most
 > notably Debian and Ubuntu LTS and probably many more, might not have Neovim v0.12.0+
-> in order to uphold their security and stability guarantee. This *will* cause issues
-> unless you manually install a more up-to-date version (v0.12.0+) from somewhere else.
+> in order to uphold their security and stability guarantee. In such cases an older
+> version of Neovim will be installed and this **will** cause issues unless you manually
+> install a more up-to-date version (v0.12.0+) from somewhere else.
 
 The command below executes a install script and should automagically install the Neovim
 config and its dependencies, except the language server binaries. It (probably) works on
