@@ -56,7 +56,7 @@ curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/
     ```
 1. Make sure you have Neovim v0.12.0+. If not, [install
    it](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-package).
-1. Install [Tree-sitter CLI v0.26.1+]. It can probably be found in your distribution's
+1. Install Tree-sitter CLI v0.26.1+. It can probably be found in your distribution's
    official repositories. If not, follow [these
    instructions](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md).
 1. Install the Neovim config:
