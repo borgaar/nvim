@@ -3,7 +3,7 @@
 This Neovim config was written from scratch and is my daily driver for 95% of my
 programming work. The main focus of this Neovim config is to stay close to the native
 Neovim experience while still providing some nice-to-haves. My personal motivation for
-this is to avoid the annoyance of having to relearn Neovim everytime I attempt to use it
+this is to avoid my annoyance of having to essentially relearn Neovim everytime I attempt to use it
 on a remote server or some other machine with a default-like Neovim config.
 
 # Compatibility
@@ -14,8 +14,8 @@ and Windows support (so assume unsupported).
 
 # Dependencies
 
-The following are the config's dependencies, bar language server binaries and plugins installed by
-[lazy.nvim](https://github.com/folke/lazy.nvim)
+The following are the config's dependencies, bar language server binaries and plugins
+installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 - [Neovim v0.12.x](https://neovim.io)
 - [`tree-sitter-cli`](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)
