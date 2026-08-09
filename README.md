@@ -32,7 +32,7 @@ installed through [lazy.nvim](https://github.com/folke/lazy.nvim):
 > version of Neovim will be installed and this **will** cause issues unless you manually
 > install a more up-to-date version (v0.12.0+) from somewhere else.
 
-The command below executes a install script and should automagically install the Neovim
+The command below executes an install script and should automagically install the Neovim
 config and its dependencies, except the language server binaries. It (probably) works on
 MacOS with [Homebrew](https://brew.sh) and Linux distributions using `pacman`, `apt`, or
 `dnf` as package managers. A backup of your current Neovim config is automatically
