@@ -36,9 +36,9 @@ There are multiple ways of installing the config. Method A is recommended.
 > install a more up-to-date version (v0.12.0+) from somewhere else.
 
 The command below executes an install script and should automagically install the Neovim
-config and its dependencies, except the language server binaries. It (probably) works on
-MacOS with [Homebrew](https://brew.sh) and Linux distributions using `pacman`, `apt`, or
-`dnf` as package managers. A backup of your current Neovim config is automatically
+config and its dependencies, except the language server binaries. It works on Linux
+distributions using `pacman`, `apt`, or `dnf` as package managers and (maybe) MacOS with
+[Homebrew](https://brew.sh). A backup of your current Neovim config is automatically
 created before installation happens.
 
 ```bash
@@ -52,7 +52,10 @@ curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/
 
 1. Create a backup of your current config if you have one: `mv "$HOME/.config/nvim"
    "$HOME/.config/nvim.backup"`
-1. Make sure you have Neovim v0.12.0+. If not, [install it](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-package).
-1. Install [Tree-sitter CLI v0.26.1+]. It can probably be found in your distribution's official repositories. If not, follow [these instructions](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md).
+1. Make sure you have Neovim v0.12.0+. If not, [install
+   it](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-package).
+1. Install [Tree-sitter CLI v0.26.1+]. It can probably be found in your distribution's
+   official repositories. If not, follow [these
+   instructions](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md).
 1. Install the Neovim config with `git clone "https://github.com/borgaar/nvim"
    "$HOME/.config/nvim"`
