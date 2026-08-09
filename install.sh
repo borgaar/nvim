@@ -82,7 +82,7 @@ else
 fi
 
 log "Installing Neovim config"
-execute git clone https://github.com/borgaar/nvim "$NEOVIM_CONFIG"
+execute git clone "https://github.com/borgaar/nvim" "$NEOVIM_CONFIG"
 
 if $BACKUP_EXISTS; then
 	log "DONE! Backup of previous config is at $NEOVIM_BACKUP"

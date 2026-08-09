@@ -28,5 +28,5 @@ except the language server binaries. It (probably) works on MacOS with
 as package managers.
 
 ```bash
-curl -L https://raw.githubusercontent.com/borgaar/nvim/main/install.sh | /bin/bash
+curl -L "https://raw.githubusercontent.com/borgaar/nvim/main/install.sh" | /bin/bash
 ```
