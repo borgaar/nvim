@@ -16,6 +16,7 @@ vim.opt.hlsearch = false
 vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
 vim.opt.colorcolumn = "88"
+vim.opt.textwidth = 88
 vim.opt.wrap = false
 
 vim.opt.scrolloff = 4

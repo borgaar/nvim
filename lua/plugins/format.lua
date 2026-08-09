@@ -11,10 +11,17 @@ return {
 			javascriptreact = prettier,
 			typescript = prettier,
 			typescriptreact = prettier,
+			sh = { "shuck" },
 		},
 		format_on_save = {
 			timeout_ms = 1000,
 			lsp_format = "fallback",
+		},
+		formatters = {
+			shuck = {
+				command = "shuck",
+				args = { "format", "--stdin-filename", "$FILENAME" },
+			},
 		},
 	},
 }
