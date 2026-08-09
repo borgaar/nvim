@@ -60,6 +60,10 @@ fedora_install() {
 	execute sudo dnf install -y "$@"
 }
 
+mac_install() {
+	execute brew install "$@" --yes
+}
+
 pkgs=(git neovim tree-sitter-cli)
 
 log "Installing dependencies: ${pkgs[*]}"
@@ -70,6 +74,8 @@ elif command -v apt-get >/dev/null 2>&1; then
 	debian_install "${pkgs[@]}"
 elif command -v dnf >/dev/null 2>&1; then
 	fedora_install "${pkgs[@]}"
+elif command -b brew >/dev/null 2>&1; then
+	mac_install "${pkgs[@]}"
 else
 	err "No supported package manager found."
 	exit 1
