@@ -20,7 +20,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
 		-- Format entire buffer
 		vim.keymap.set("n", "<leader>cf", function()
-			vim.lsp.buf.format()
+			require("conform").format()
 		end, {
 			buffer = event.buf,
 			desc = "Format buffer",
@@ -28,7 +28,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
 		-- Format selected range
 		vim.keymap.set("v", "<leader>cf", function()
-			vim.lsp.buf.format({
+			require("conform").format({
 				range = {
 					start = vim.api.nvim_buf_get_mark(0, "<"),
 					["end"] = vim.api.nvim_buf_get_mark(0, ">"),

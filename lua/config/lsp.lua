@@ -9,6 +9,7 @@ vim.lsp.enable({
 	"lemminx",
 	"leanls",
 	"lua-language-server",
+	"tailwindcss-language-server",
 	"pyright",
 	"rust_analyzer",
 	"tailwindcss",
